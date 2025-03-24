@@ -949,6 +949,24 @@ a:focus {
 }
 .overlay{
 	background-color: rgba(0,0,0,0.302);
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+	visibility: hidden;
+	opacity: 0;
+	inset-inline-start: 18%;
+	
+}
+.show{
+	visibility: visible;
+	opacity: 1;
+	
+}
+.overflow{
+	overflow: hidden;
 }
 /*                                   footer                            */
 

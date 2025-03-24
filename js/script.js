@@ -19,7 +19,8 @@ $(document).ready(function() {
 
             $(".navgition").toggleClass("reset-left");
 
-            $("body").toggleClass("overlay");
+            $(".overlay").toggleClass("show");
+            $("body").toggleClass("overflow");
           
 
         });
