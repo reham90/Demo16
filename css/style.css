@@ -358,13 +358,7 @@ header {
 	align-items: center;
 }
 
-.currency {
-	color: var(--main-color);
-	font-size: 14px;
-	font-family: "Cairo-SemiBold";
-	display: flex;
-	margin-inline-start: 5px;
-}
+
 
 .search-btn:hover:after {
 	color: var(--main-hover);
@@ -964,7 +958,13 @@ a:focus {
 	body {
 		padding-top: 77px;
 	}
-
+.search-section{
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  
+	width: 90%;
+}
 	.products-tabs {
 		width: 100%;
 		overflow-x: scroll;
